@@ -153,12 +153,14 @@ export default async function LandingPage() {
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Button size="lg" className="h-12 px-8">
                   <ExternalLink className="mr-2 h-4 w-4" />
-                  {user ? "Dashboard" : "Try Demo"}
+                  <Link href="/signup">Try Demo</Link>
                 </Button>
+<a href="https://github.com/chandann23/Better-auth-nextjs">
                 <Button variant="outline" size="lg" className="h-12 px-8 bg-transparent">
                   <Github className="mr-2 h-4 w-4" />
                   View on GitHub
                 </Button>
+</a>
               </div>
             </div>
           </div>
@@ -228,9 +230,6 @@ export default async function LandingPage() {
                   <Button size="lg">
                     <ExternalLink className="mr-2 h-4 w-4" />
                     {user ? "Dashboard" : "Launch Demo"}
-                  </Button>
-                  <Button variant="outline" size="lg">
-                    View Documentation
                   </Button>
                 </div>
               </div>
@@ -313,10 +312,12 @@ export default async function LandingPage() {
                 </p>
               </div>
               <div className="flex flex-col gap-2 min-[400px]:flex-row">
+<a href="https://github.com/chandann23/Better-auth-nextjs">
                 <Button size="lg" className="h-12 px-8">
                   <Github className="mr-2 h-4 w-4" />
                   Clone Repository
                 </Button>
+</a>
                 <Button variant="outline" size="lg" className="h-12 px-8 bg-transparent">
                   <Star className="mr-2 h-4 w-4" />
                   Star on GitHub
